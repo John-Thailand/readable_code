@@ -20,3 +20,7 @@ int sumSquaredValues(List<int> values) {
   }
   return sumSquares;
 }
+
+// 2.4 名前に情報を追加する
+// 時間やバイト数のように計測できるものは変数名に単位を入れると良い
+// delay → delay_secs
