@@ -24,3 +24,11 @@ int sumSquaredValues(List<int> values) {
 // 2.4 名前に情報を追加する
 // 時間やバイト数のように計測できるものは変数名に単位を入れると良い
 // delay → delay_secs
+
+// 3章 誤解されない名前
+// 3.1 max_lengthも色んな解釈ができる→バイト数か文字数か単語数か
+// もし文字数であれば、「max_length」でなく「max_chars」にする
+
+// 3.6 bool値の名前
+// bool値の変数名は、頭にis・has・can・shouldなどをつけて分かりやすくする
+// spaceLeft()ではなく、hasSpaceLeft()とする。左スペースを持っているかのフラグ
