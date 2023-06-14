@@ -32,3 +32,9 @@ int sumSquaredValues(List<int> values) {
 // 3.6 bool値の名前
 // bool値の変数名は、頭にis・has・can・shouldなどをつけて分かりやすくする
 // spaceLeft()ではなく、hasSpaceLeft()とする。左スペースを持っているかのフラグ
+
+// 4.5 一貫性と意味のある並び
+// 例えば、対応するHTMLフォームの<input>フィールドと同じ並び順にする。
+// details = request.POST.get('details');
+// location = request.POST.get('location');
+// phone = request.POST.get('phone');
