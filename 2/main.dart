@@ -38,3 +38,15 @@ int sumSquaredValues(List<int> values) {
 // details = request.POST.get('details');
 // location = request.POST.get('location');
 // phone = request.POST.get('phone');
+
+// 4.7 コードを空行を使って意味のある段落ごとに分ける
+// void setDBData() {
+//   // DBをOpenする
+//   db = db.Open;
+
+//   // DBにデータをセットする
+//   db.Set;
+
+//   // DBをクローズする
+//   db.Close
+// }
