@@ -62,3 +62,11 @@ int sumSquaredValues(List<int> values) {
 // 6.2 曖昧な代名詞を避ける
 // 誤: データをキャッシュに入れる。ただし、先にそのサイズをチェックする。
 // 正: データをキャッシュに入れる。ただし、先にデータのサイズをチェックする。
+
+// 6.5 入出力のコーナーケースに実例を使う
+// 実例: Strip("abba/a/ba", "ab")は "/a/"を返す
+// String Strip(String src, String chars) {...}
+
+// 6.7 名前付き引数コメント
+// 引数の意味が分かる
+// Connect(timeout = 10, use_encryption = False)
