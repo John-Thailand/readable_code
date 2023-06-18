@@ -94,3 +94,5 @@ int sumSquaredValues(List<int> values) {
 //   if (str == null || substr == null) return false;
 //   if (substr.equals("")) return true;
 // }
+
+// 7.7 ネストを浅くする
