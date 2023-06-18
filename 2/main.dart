@@ -70,3 +70,27 @@ int sumSquaredValues(List<int> values) {
 // 6.7 名前付き引数コメント
 // 引数の意味が分かる
 // Connect(timeout = 10, use_encryption = False)
+
+// 7章 制御フローを読みやすくする
+// 7.1 条件式の引数の並び順
+// 左側を「調査対象」の式。右側を「比較対象」の式とする。
+// もし君が１８歳以上であるならば
+// if (your_age <= 18)
+
+// 7.2 if/else ブロックの並び順
+// 条件は否定形よりも肯定形を使う
+// if (!debug)ではなく、if(debug)を使う
+
+// 7.3 三項演算子
+// 行数を短くするよりも、他の人が理解するのにかかる時間を短くする
+// 正：time_str += (hour >= 12) ? "pm" : "am";
+// 誤：return exponent >= mantissa * (1 << exponent) : mantissa / (1 << -exponent);
+// 上記は読みにくいため、if/else文を使う
+
+// 7.5 関数から早く返す
+// 関数で複数のreturn 文を使ってはいけないと思っている人がいる。
+// むしろ関数から早く返すことは良いことである。
+// public boolean Contains(String str, String substr) {
+//   if (str == null || substr == null) return false;
+//   if (substr.equals("")) return true;
+// }
