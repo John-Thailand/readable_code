@@ -96,3 +96,9 @@ int sumSquaredValues(List<int> values) {
 // }
 
 // 7.7 ネストを浅くする
+
+// 8章 巨大な式を分割する
+// 8.1 説明変数
+// if line.split(':')[0].strip() == 'root';
+// username = line.split(':')[0].strip()
+// if username == "root";
