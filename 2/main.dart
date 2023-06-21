@@ -102,3 +102,12 @@ int sumSquaredValues(List<int> values) {
 // if line.split(':')[0].strip() == 'root';
 // username = line.split(':')[0].strip()
 // if username == "root";
+
+// 8.2 要約変数
+// 誤：if (request.user.id == document.owner_id) {
+//   // ユーザーはこの文書を編集できる
+// }
+// request.user.id == document.owner_idは変数が５つも入っているから考えるのに時間がかかる
+// このコードの言いたいことは「ユーザーを文書を所持しているか」である。
+// 正：final boolean user_owns_document = (request.user.id == document.owner_id)
+// if (user_owns_document)
