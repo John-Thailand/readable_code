@@ -111,3 +111,15 @@ int sumSquaredValues(List<int> values) {
 // このコードの言いたいことは「ユーザーを文書を所持しているか」である。
 // 正：final boolean user_owns_document = (request.user.id == document.owner_id)
 // if (user_owns_document)
+
+// 11章
+// 11.1 コードは１つずつタスクを行うようにしなければいけない
+// 1 総スコアを取得、2 古い値を削除、3 新しい値を追加、4 総スコアをセット
+// var vote_changed = function(old_vote, new_vote) {
+//   var score = get_score();
+
+//   score -= vote_value(old_vote);  // 古い値を削除する
+//   score += vote_value(new_vote);  // 新しい値を追加する
+
+//   set_score(score);
+// }
